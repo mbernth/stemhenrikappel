@@ -19,6 +19,16 @@
 	color: #000000;
 	fill: currentColor;
 }
+
+a [class^="icon-"],
+a [class*=" icon-"] {
+	color: $color-primary;
+}
+a:hover [class^="icon-"],
+a:hover [class*=" icon-"] {
+	color: $color-alert;
+}
+
 .icon-phone {
 	width: 20px;
 	height: 20px;

@@ -113,12 +113,13 @@ remove_action( 'genesis_after_header', 'genesis_do_nav' );
 add_action( 'genesis_header', 'genesis_do_nav', 12 );
 
 // Move breadcrumbs
-remove_action('genesis_before_loop', 'genesis_do_breadcrumbs');
-add_action('genesis_after_header', 'genesis_do_breadcrumbs', 20);
+// remove_action('genesis_before_loop', 'genesis_do_breadcrumbs');
+// add_action('genesis_after_header', 'genesis_do_breadcrumbs', 20);
 
+// Edit breadcrumbs home text
 add_filter( 'genesis_breadcrumb_args', 'crunchify_custom_breadcrumb_args' );
 function crunchify_custom_breadcrumb_args( $args ) {
-	$args['home'] = 'Home';   // Home Page
+	$args['home'] = '<svg class="icon-house"><use xlink:href="#icon-house"></use></svg>';   // Home Page
 	$args['sep'] = ' <svg class="icon-arrow-right6"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right6"></use></svg> ';  // My favorite arrow
 	$args['list_sep'] = ', '; 
 	$args['prefix'] = '<div class="breadcrumb"><div class="wrap">';
@@ -146,7 +147,7 @@ return $args;
 unregister_sidebar( 'header-right' );
 
 //* Add support for 3-column footer widgets
-add_theme_support( 'genesis-footer-widgets', 4 );
+add_theme_support( 'genesis-footer-widgets', 1 );
 
 //* Register widget areas
 genesis_register_sidebar( array(
@@ -172,7 +173,7 @@ function monobrighton_before_header() {
 // =====================================================================================================================
 
 //* DISPLAY FULL WIDTH FEATURED IMAGE ON STATIC PAGES
-add_action ( 'genesis_after_header', 'single_post_featured_image', 15 );
+add_action ( 'genesis_before_content_sidebar_wrap', 'single_post_featured_image', 15 );
 function single_post_featured_image() {
 	if ( (is_single() || is_page()) && has_post_thumbnail() ) :
 	
@@ -188,6 +189,7 @@ function single_post_featured_image() {
 }
 
 //* Enqueue scripts and styles
+/*
 add_action( 'wp_enqueue_scripts', 'enqueue_scripts_featured_image' );
 function enqueue_scripts_featured_image() {
 	
@@ -196,6 +198,7 @@ function enqueue_scripts_featured_image() {
 	endif;
 	
 }
+*/
 
 add_filter( 'body_class', 'featured_body_class' );
 function featured_body_class( $classes ) {

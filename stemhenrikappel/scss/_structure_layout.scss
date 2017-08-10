@@ -11,9 +11,9 @@
 
 .site-inner{
 	clear: both;
+	padding-top: 60px;
 	margin: 0 auto;
 	width:100%;
-	margin-top: 30px;
 }
 .content-sidebar .site-inner,
 .sidebar-content .site-inner,
@@ -44,7 +44,7 @@
 /* ## Grid Containers
 ---------------------------------------------------------------------- */
 .gridcontainer{
-	padding: 30px 0;
+	padding: 40px 0;
 	.row_headline{
 		width: 90%;
     	margin: 0 auto;
@@ -67,7 +67,7 @@
 		width: 100%;
 		.wysiwyg{
 			margin: 0 auto;
-			padding: 30px 0;
+			padding: 60px 0;
 			width: 90%;
 		}
 	}
@@ -88,13 +88,14 @@
 
 /* ### Grid Containers coloured backgrounds
 --------------------------------------------- */
+.gridcontainer.black,
+.gridcontainer.grey{
+	padding: 60px 0;
+}
 .gridcontainer.black{
 	background-color: $color-black;
 	color: $color-white;
-	.row_headline{
-		color: $color-white;
-	}
 }
 .gridcontainer.grey{
-	background-color: tint($color-black, 60%);
+	background-color: $color-secondary;
 }

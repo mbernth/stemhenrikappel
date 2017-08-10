@@ -17,9 +17,18 @@
 	display: none;
 	position: relative;
 	width: 100%;
-	float: left;
-	height: 60vh;
+	height: 80vh;
 	-ms-touch-action: pan-y;
+}
+.owl-carousel .featured-section,
+.owl-carousel .featured-section .image-section{
+	height: 80vh;
+}
+.owl-carousel .owl-item:nth-child(even) .featured-section .image-section{
+	background: linear-gradient(145deg, rgba(205,222,104,.75) 0%,rgba(205,222,104,0) 75%); /* Yellow - W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.owl-carousel .owl-item:nth-child(odd) .featured-section .image-section{
+	background: linear-gradient(145deg, rgba(0,174,239,.75) 0%,rgba(125,185,232,0) 75%); /* Cyan - W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .owl-carousel .owl-wrapper{
 	display: none;
@@ -28,7 +37,7 @@
 }
 .owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
-	position: absolute;
+	position: relative;
 	width: 100%;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
@@ -69,59 +78,5 @@
   -webkit-transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
-}
-
-/* # Slider
---------------------------------------------------- */
-
-.has-owl-slider .site-inner{
-	padding-top: 0;
-}
-
-.owl-carousel .featured-section{
-	width: 100%;
-	max-width: 100%;
-	margin-bottom: 0;
-	.image-section{
-		height: 60vh;
-		/* border-bottom: 10vh solid rgba(240, 77, 70, .7); */
-	}
-}
-
-.slide_content h1{
-    padding: 20px;
-    position: absolute;
-    width: 90%;
-	max-width: 400px;
-	overflow: hidden;
-	color: $color-black;
-	background-color: $color-white;
-	text-transform: uppercase;
-}
-.frame0 .slide_content h1{
-	left: calc(50% - 400px);
-    top: calc(50% - 76px);
-}
-.frame1 .slide_content h1{
-	left: calc(50% - 400px);
-    top: calc(50% - 76px);
-}
-.frame2 .slide_content h1{
-	left: calc(50% - 400px);
-    top: calc(50% - 76px);
-}
-
-.slide_content h1{
-	color: $color-black;
-	word-wrap: break-word;
-	margin-bottom: 0px;
-}
-
-.active .slide_content h1{
-	-webkit-animation: slide 2s ease-in-out both;
-	-moz-animation: slide 2s ease-in-out both;
-	-o-animation: slide 2s ease-in-out both;
-	-ms-animation: slide 2s ease-in-out both;
-    animation: slide 2s ease-in-out both;
 }
 

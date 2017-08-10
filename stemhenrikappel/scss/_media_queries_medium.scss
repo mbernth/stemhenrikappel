@@ -109,7 +109,8 @@
 }
 /* ### Site Containers Full-width 
 --------------------------------------------- */
-.full-width-content .site-inner .content .entry{
+.home-section.full-width-content .site-inner .content .entry{
+	padding: 80px 0;
 	max-width: 920px;
 }
 /* ## Grid Containers
@@ -298,11 +299,6 @@
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets .wrap {
 	max-width: 920px;
-}
-@supports (display: grid) {
-.footer-widgets .wrap {
-	grid-template-columns:repeat(4, 1fr);
-}
 }
 /* ## Social Icons
 ---------------------------------------------------------------------- */

@@ -2902,6 +2902,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stemhenrikappel\/scss\/_owl_carousel_alt.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stemhenrikappel\/css\/_owl_carousel_alt.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stemhenrikappel\/scss\/_owl_theme.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2911,6 +2924,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/stemhenrikappel\/css\/_owl_theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/stemhenrikappel\/scss\/_owl_theme_alt.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stemhenrikappel\/css\/_owl_theme_alt.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -100,11 +100,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	## Skip Links
 */
 	@import "plugins";
+	@import "owl_carousel";
+	@import "owl_theme_alt";
+	@import "owl_transitions";
 
 /*
-	@import "owl_carousel";
-	@import "owl_theme";
-	@import "owl_transitions";
 	@import "timeline";
 	@import "push";
 	@import "quotes";
@@ -174,9 +174,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /*
 # Pages
 	## Frontpage
-
-	@import "page_frontpage";
 */
+	@import "page_frontpage";
+
 /*
 # Post Types
 	## Cases

@@ -25,6 +25,8 @@
 ---------------------------------------------------------------------- */
 
 .breadcrumb {
+	background-color: $color-accent-two;
+	padding: 5px 10px;
 	margin-bottom: 20px;
 	@include font(1.4, 2.4);
 	[class^="icon-"]{
@@ -32,8 +34,14 @@
 		top: 5px;
 	}
 }
+.breadcrumb .icon-house {
+	top: 1px;
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
 .breadcrumb .wrap{
-	width: 90%;
+	width: 100%;
 }
 
 .archive-description,

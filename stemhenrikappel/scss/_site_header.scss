@@ -127,3 +127,12 @@
 	text-align:right;
 	color:$color-white;
 }
+
+.before-header .menu a{
+	color: $color-white;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	&hover{
+		color: $color-accent-two;
+	}
+}

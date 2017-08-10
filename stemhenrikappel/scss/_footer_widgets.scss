@@ -8,12 +8,18 @@
 	width: 100%;
 	background-color: $color-secondary;
 	clear: both;
-	padding: 40px 0;
+	padding: 60px 0 100px;
 }
 
 .footer-widgets .wrap {
 	margin: 0 auto;
 	width:90%;
+}
+
+.footer-widgets .widget-title{
+	text-align: center;
+	color: $color-black;
+	margin-bottom: 30px;
 }
 
 .footer-widgets,

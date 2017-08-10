@@ -59,6 +59,13 @@ function mono_flexible_grids() {
 							$colbtn = get_sub_field('column_content_button');
 							
 							echo '<section class="wysiwyg">';
+								
+								if( ($selected == 'non black' || $selected == 'non grey' || $selected == 'non')){
+									if($headline){
+									echo '<h1>' . $headline . '</h1>';
+									}
+								}
+								
 								the_sub_field('content');
 								// Column botton
 								if ($colbtn['button_text']){
@@ -106,8 +113,15 @@ function mono_flexible_grids() {
 							
 							// Video fields
 							if (get_sub_field('video_embeding_code')){
-							echo '<section class="coll' . $coll. '">';
+							echo '<section">';
 								the_sub_field('video_embeding_code');
+							echo '</section>';
+							}
+				
+							// Widget fields
+							if (get_sub_field('widget_content')){
+							echo '<section">';
+								the_sub_field('widget_content');
 							echo '</section>';
 							}
 							

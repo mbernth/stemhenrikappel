@@ -104,73 +104,27 @@
 	clear:both;
 	display:block;
 	text-align:center;
-	border-bottom:none;
-	box-shadow:none;
-	background-color: shade( $color-grey, 80%);
-	color: $color-grey;
-	padding:0;
-	-webkit-transition: all .1s ease-in-out;
-	-moz-transition:    all .1s ease-in-out;
-	-ms-transition:     all .1s ease-in-out;
-	-o-transition:      all .1s ease-in-out;
-	transition:         all .1s ease-in-out;
-	
-	-webkit-transition: .75s -webkit-transform cubic-bezier(.23,1,.32,1);
-    transition: .75s transform cubic-bezier(.23,1,.32,1);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-transition-delay: .1s;
-    transition-delay: .1s;
+	background-color: $color-primary;
+	color: $color-white;
+	padding:16px 24px;
+	border-radius: 25px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition:    all .3s ease-in-out;
+	-ms-transition:     all .3s ease-in-out;
+	-o-transition:      all .3s ease-in-out;
+	transition:         all .3s ease-in-out;
 	
 }
 .gridcontainer a.button:hover,
 .entry-content a.button:hover {
-	background-color: shade( $color-grey, 5%);
-	color: shade( $color-grey, 80%);
-	border-bottom: none;
-    box-shadow: none;
-	
-	-webkit-transform: scale(1.05) translateZ(0);
-    transform: scale(1.05) translateZ(0);
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s;
-	
+	background-color: shade( $color-primary, 5%);
+	box-shadow:0px 5px 3px 0px rgba(0, 0, 0, 0.25);
 }
 
-.gridcontainer button#trigger-overlay{
-	float:none;
-	max-width:270px;
-	margin:70px auto 0;
-	position:relative;
-	clear:both;
-	display:block;
-	text-align:center;
-}
 
-.full-width-content .gridcontainer.Red .button{
-	background-color: shade( $color-grey, 5%);
-	color:shade( $color-grey, 80%);
-}
-.full-width-content .gridcontainer.Red .button:hover{
-	background-color: shade( $color-grey, 80%);
-	color:shade( $color-grey, 5%);
-}
-
-.full-width-content .gridcontainer.Black .button{
-	background-color: shade( $color-primary-two, 0%);
-	color:shade( $color-grey, 0%);
-}
-.full-width-content .gridcontainer.Black .button:hover{
-	background-color: shade( $color-grey, 80%);
-	color:shade( $color-grey, 5%);
-}
 
 .gridcontainer a.button span,
 .entry-content a.button span{
-	display:block;
-	padding:24px 32px;
 }
 
 .gridcontainer [class*="coll"] .button {
@@ -178,127 +132,8 @@
 }
 .gridcontainer [class*="coll"] a.button span{
 	display:block;
-	padding:16px;
 }
 
-.gridcontainer .button:before,
-.entry-content .button:before {
-	content: '';
-	position: absolute;
-	background: shade( $color-grey, 40%);
-	-webkit-transition: -webkit-transform 0.1s;
-	transition: transform 0.1s;
-	-webkit-transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
-	transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
-	
-    left: 0;
-    -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-}
-
-.gridcontainer .button:after,
-.entry-content .button:after {
-	content: '';
-	position: absolute;
-	background: shade( $color-grey, 40%);
-	-webkit-transition: -webkit-transform 0.1s;
-	transition: transform 0.1s;
-	-webkit-transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
-	transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
-	
-    right: 0;
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-}
-
-.gridcontainer .button span:before,
-.entry-content .button span:before {
-	content: '';
-	position: absolute;
-	background: shade( $color-grey, 40%);
-	-webkit-transition: -webkit-transform 0.1s;
-	transition: transform 0.1s;
-	-webkit-transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
-	transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
-	
-    top: 0;
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-}
-
-.gridcontainer .button span:after,
-.entry-content .button span:after {
-	content: '';
-	position: absolute;
-	background: shade( $color-grey, 40%);
-	-webkit-transition: -webkit-transform 0.1s;
-	transition: transform 0.1s;
-	-webkit-transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
-	transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
-	
-   bottom: 0;
-    -webkit-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
-}
-
-.gridcontainer .button:before,
-.entry-content .button:before,
-.gridcontainer .button:after,
-.entry-content .button:after {
-	top: 0;
-	width: 2px;
-	height: 100%;
-	-webkit-transform: scale3d(1, 0, 1);
-	transform: scale3d(1, 0, 1);
-}
-
-.gridcontainer .button span:before,
-.entry-content .button span:before,
-.gridcontainer .button span:after,
-.entry-content .button span:after {
-    left: 0;
-    width: 100%;
-    height: 2px;
-    -webkit-transform: scale3d(0, 1, 1);
-    transform: scale3d(0, 1, 1);
-}
-
-.gridcontainer .button:hover::before,
-.entry-content .button:hover::before,
-.gridcontainer .button:hover::after,
-.entry-content .button:hover::after,
-.gridcontainer .button span:hover::before,
-.entry-content .button span:hover::before,
-.gridcontainer .button span:hover::after,
-.entry-content .button span:hover::after {
-	-webkit-transform: scale3d(1, 1, 1);
-	transform: scale3d(1, 1, 1);
-}
-
-/* left line */
-.gridcontainer .button:before,
-.entry-content .button:before {
-	-webkit-transition-delay: 0.1s;
-	transition-delay: 0.1s;
-}
-/* top line */
-.gridcontainer .button span:before,
-.entry-content .button span:before {
-	-webkit-transition-delay: 0.2s;
-	transition-delay: 0.2s;
-}
-/* right line */
-.gridcontainer .button:after,
-.entry-content .button:after {
-	-webkit-transition-delay: 0.3s;
-	transition-delay: 0.3s;
-}
-/* bottom line */
-.gridcontainer .button span:after,
-.entry-content .button span:after {
-	-webkit-transition-delay: 0.4s;
-	transition-delay: 0.4s;
-}
 
 /* ## Entry Meta
 ---------------------------------------------------------------------- */
@@ -484,13 +319,10 @@ li.comment {
 
 .featured-image{
 	.before-header{
-		background-color: transparent;
 	}
 	.site-header {
-		background-color: transparent;
 	}
 	.nav-secondary{
-		background-color: transparent;
 	}
 } 
 
@@ -499,28 +331,30 @@ li.comment {
 }
 
 .featured-section {
+	width: 90%;
+	max-width: 1280px;
+	margin: 0 auto 40px;
 	margin-top:0px;
     background-attachment: scroll;
-    background-color: #000000;
-    background-position: 50% 50%;
+    background-color: $color-primary;
+    background-position: 50% 10%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
 }
-
+.content-sidebar .featured-section,
+.sidebar-content .featured-section{
+	width: 100%;
+}
 .featured-image .site-inner {
-    padding-top: 40px;
-    margin-top: 0px;
+	padding-top: 40px;
 }
 .featured-section .image-section{
 	height: 50vh;
 }
 .image-section {
-	background: -webkit-linear-gradient(rgba(29, 32, 41, 0.75) 0%, rgba(29, 32, 41, 0) 100%);
-	background: -o-linear-gradient(rgba(29, 32, 41, 0.75) 0%, rgba(29, 32, 41, 0) 100%);
-	background: linear-gradient(rgba(29, 32, 41, 0.75) 0%, rgba(29, 32, 41, 0) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2029', endColorstr='#00ffffff',GradientType=0 );
+	background: linear-gradient(145deg, rgba(201, 0, 44,.75) 0%,rgba(125,185,232,0) 75%);
 }
 
 /* ## Case grid
