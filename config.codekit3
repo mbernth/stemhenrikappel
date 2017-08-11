@@ -436,6 +436,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/stemhenrikappel\/js\/min\/owl.frontslider-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/stemhenrikappel\/js\/min\/min\/owl.frontslider-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/stemhenrikappel\/js\/modernizr.custom.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3175,6 +3184,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stemhenrikappel\/scss\/_site_navigation_max800.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stemhenrikappel\/css\/_site_navigation_max800.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stemhenrikappel\/scss\/_site_navigation_old.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3184,6 +3206,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/stemhenrikappel\/css\/_site_navigation_old.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/stemhenrikappel\/scss\/_site_navigation_original.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stemhenrikappel\/css\/_site_navigation_original.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

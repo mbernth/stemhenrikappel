@@ -2,6 +2,10 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
+	margin-top: 20px;
+	display: block;
+	clear: both;
+	float: left;
 }
 
 .sidebar li {
@@ -17,4 +21,6 @@
 
 .sidebar .widget {
 	margin-bottom: 20px;
+	padding: 20px;
+	background-color:$color-secondary;
 }

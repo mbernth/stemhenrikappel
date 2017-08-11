@@ -95,6 +95,49 @@
 
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */
+/* Owl Carousel
+--------------------------------------------- */
+.statements{
+	margin-top: 140px;
+	h1{
+		padding: 20px;
+		max-width: 400px;
+		@include font(3.2, 3.2);
+		&:nth-child(1){
+			left: calc(50% - 400px);
+			top: calc(50% - 106px);
+			animation: slide 2s 1s ease-in-out both;
+		}
+		&:nth-child(2){
+			left: calc(50% - 420px);
+			top: calc(50% - -6px);
+			animation: slide 2s 2s ease-in-out both;
+		}
+		&:nth-child(3){
+			left: calc(50% - 320px);
+			top: calc(50% - -114px);
+			animation: slide 2s 3s ease-in-out both;
+		}
+	}
+}
+	
+/* Quotes Rotator
+--------------------------------------------- */
+.gridcontainer[class*="coll"] .cbp-qtrotator .cbp-qtcontent{
+	display: flex;
+	align-items: flex-start;
+	padding-top: 30px;
+}
+.gridcontainer[class*="coll"] .cbp-qtrotator img{
+	display: block;
+	margin-right: 30px;
+	object-fit: contain;
+	width: calc(50% - 30px);
+}
+.gridcontainer[class*="coll"] .cbp-qtrotator blockquote {
+    margin: 0 0 30px;
+}
+
 /* ## Genesis eNews Extended
 ---------------------------------------------------------------------- */
 /* ## Skip Links
@@ -102,6 +145,14 @@
 
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
+.header-full-width .title-area {
+	float:left;
+	width: 345px;
+}
+#site-logo{
+	width: 428px;
+	height: 60px;
+}
 /* ## Title Area
 ---------------------------------------------------------------------- */
 /* ## Widget Area
@@ -121,6 +172,13 @@
 ---------------------------------------------------------------------- */
 /* ## Responsive Menu
 ---------------------------------------------------------------------- */
+.responsive-menu-icon {
+    margin-top: 34px;
+}
+.responsive-menu-icon .icon-list2 {
+    width: 40px;
+    height: 40px;
+}
 /* ## Language Menu
 ---------------------------------------------------------------------- */
 

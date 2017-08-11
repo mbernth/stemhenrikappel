@@ -111,21 +111,19 @@ ul.genesis-nav-menu li li{
 .responsive-menu-icon {
 	float: right;
     margin-right: 5%;
-    margin-top: 20px;
-    padding: 5px;
-    background: tint($color-black, 20%);
-	color:$color-grey;
+    margin-top: 24px;
+	color:$color-white;
 }
 .responsive-menu-icon.icon-open {
-	background: tint($color-black, 80%);
-	color:$color-grey;
+	color:$color-white;
 }
 .responsive-menu-icon.icon-open .icon-list2 {
 	transform: rotate(90deg);
 }
 .responsive-menu-icon .icon-list2 {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+	color: $color-white;
 	-moz-transition:    all .4s ease-in-out;
 	-ms-transition:     all .4s ease-in-out;
 	-o-transition:      all .4s ease-in-out;

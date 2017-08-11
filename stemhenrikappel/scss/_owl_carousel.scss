@@ -88,6 +88,46 @@
 	}
 }
 
+.statements{
+	position: absolute;
+	width: 100%;
+	height: 60vh;
+	margin-top: 111px;
+	h1{
+		padding: 10px;
+    	position: absolute;
+		display: block;
+    	width: 90%;
+		max-width: 180px;
+		overflow: hidden;
+		color: $color-black;
+		background-color: $color-white;
+		text-transform: uppercase;
+		@include font(2, 2);
+		a{
+			color: $color-black;
+			&:hover{
+				color:$color-primary;
+			}
+		}
+		&:nth-child(1){
+			left: calc(50% - 120px);
+			top: calc(50% - 76px);
+			animation: slide 2s 1s ease-in-out both;
+		}
+		&:nth-child(2){
+			left: calc(50% - 140px);
+			top: calc(50% - 16px);
+			animation: slide 2s 2s ease-in-out both;
+		}
+		&:nth-child(3){
+			left: calc(50% - 100px);
+			top: calc(50% - -44px);
+			animation: slide 2s 3s ease-in-out both;
+		}
+	}
+}
+
 .slide_content h1{
     padding: 20px;
     position: absolute;

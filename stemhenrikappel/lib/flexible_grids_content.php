@@ -4,6 +4,16 @@
 //* Flexible grids
 // =====================================================================================================================
 
+//* Enqueue Google Fonts
+add_action( 'wp_enqueue_scripts', 'quote_scripts' );
+function quote_scripts() {
+	
+		wp_enqueue_script( 'mono-modernizr-custom', get_bloginfo( 'stylesheet_directory' ) . '/js/modernizr.custom.js', array( 'jquery' ), '1.0.0', true );
+		wp_enqueue_script( 'quotes', get_stylesheet_directory_uri() . '/js/quotes.js', array( 'jquery' ), '1.0.0' , true);
+		wp_enqueue_script( 'quote_action', get_stylesheet_directory_uri() . '/js/quote_action.js', array( 'jquery' ), '1.0.0' , true);
+
+}
+
 // check if the flexible content field has rows of data
 add_action( 'genesis_after_entry', 'mono_flexible_grids', 15 );
 function mono_flexible_grids() {
@@ -123,6 +133,26 @@ function mono_flexible_grids() {
 							echo '<section">';
 								the_sub_field('widget_content');
 							echo '</section>';
+							}
+				
+							// Quotes fields
+							if (get_row_layout() == 'quotes_content'){
+								$items = get_field( 'quotes', 'option' );
+								if($items) {
+								echo '<section>';
+									echo '<div id="cbp-qtrotator" class="cbp-qtrotator">';
+										foreach($items as $item) {	
+											echo '<div class="cbp-qtcontent">
+													<img src="' . $item['photo'] .'" alt="' . $item['quote_name'] .'" title="' . $item['quote_name'] .', ' . $item['titel'] .'">
+													<div>
+											      		<blockquote>' . $item['quote'] .'</blockquote>
+														<footer>' . $item['quote_name'] .'<br><em>' . $item['titel'] .'</em></footer>
+													</div>
+												  </div>';
+										}
+									echo '</div>';
+								echo '</section>';
+								}
 							}
 							
 							

@@ -169,6 +169,20 @@ function monobrighton_before_header() {
 }
 
 
+//* Option pages
+// =====================================================================================================================
+
+// Add events option page
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Quotes',
+		'menu_title'	=> 'Quotes'
+	));
+	
+}
+
+
 //* Featured Image
 // =====================================================================================================================
 

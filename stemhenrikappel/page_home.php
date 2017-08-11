@@ -59,6 +59,9 @@ add_action( 'genesis_after_header', 'mono_frontpage_slider' );
 function mono_frontpage_slider() {
 	$loopCount = 0;
 	$arrowlink = get_field( 'arrow_link_url' );
+	$stateOne = get_field( 'statement_one' );
+	$stateTwo = get_field( 'statement_two' );
+	$stateThree = get_field( 'statement_three' );
 	
 	
 	if( have_rows('slider') ):
@@ -75,10 +78,12 @@ function mono_frontpage_slider() {
 						the_sub_field('image');
 				echo ');"><div class="image-section">';
 				
+				/*
 				echo '<div class="slide_content"><h1>';
 						the_sub_field('text');
 				echo '</h1></div>';
-								
+				*/
+	
 				echo '</div></div>';
 				echo '</div>';
 				$loopCount ++;
@@ -86,7 +91,15 @@ function mono_frontpage_slider() {
 			endif;
 
     	endwhile;
+	
 		
+		
+		echo '</div>';
+		
+		echo '<div class="statements">';
+			echo '<h1><a href="#born">'.$stateOne.'</a></h1>';
+			echo '<h1><a href="#byen">'.$stateTwo.'</a></h1>';
+			echo '<h1><a href="#forbedring">'.$stateThree.'</a></h1>';
 		echo '</div>';
 	
 	else :
