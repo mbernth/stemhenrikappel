@@ -14,6 +14,11 @@ function quote_scripts() {
 
 }
 
+add_action( 'wp_enqueue_scripts', 'accordion_script' );
+function accordion_script() {
+		wp_enqueue_script( 'faq-bootstrap', get_bloginfo( 'stylesheet_directory' ) . '/js/bootstrap.min.js', array( 'jquery' ), '1.0.0' );
+}
+
 // check if the flexible content field has rows of data
 add_action( 'genesis_after_entry', 'mono_flexible_grids', 15 );
 function mono_flexible_grids() {
@@ -123,7 +128,7 @@ function mono_flexible_grids() {
 							
 							// Video fields
 							if (get_sub_field('video_embeding_code')){
-							echo '<section">';
+							echo '<section>';
 								the_sub_field('video_embeding_code');
 							echo '</section>';
 							}
@@ -155,7 +160,139 @@ function mono_flexible_grids() {
 								}
 							}
 							
+							// Accordion fields
+							/*
+							if ( get_row_layout() == 'cv_liste' ){
+							$m = 0;
 							
+								
+							if ( have_rows( 'cv_item' ) ) {
+							
+							$i = 0;
+							while ( have_rows( 'cv_item' ) ) : the_row();
+							$items = get_sub_field ('headline');
+								
+								if ($items):
+								
+								echo '<p>';
+									the_sub_field( 'headline' );
+									
+								
+								echo '<br>';
+								
+								if ( have_rows( 'cv' ) ) :
+									echo ''.$items.'';
+									while ( have_rows( 'cv' ) ) : the_row();
+										
+										the_sub_field( 'start_date' );
+										the_sub_field( 'end_date' );
+										the_sub_field( 'story' );
+										echo '<b> - '.$i.'</b>';
+										echo '<br>';
+									$i++;
+									
+									endwhile;
+									
+								else :
+									// no rows found
+								endif;
+								
+								echo '<p>';
+								
+								endif;
+								echo '<b> - '.$m.'</b>';
+							$m++;
+							endwhile;
+							
+							}
+							// no rows found
+								
+							}
+							*/	
+							if (get_row_layout() == 'cv_liste'){
+								
+								
+								/*
+								$groups = get_sub_field( 'cv_item' );
+								$i = 0;
+								
+								
+								foreach($groups as $group) {
+								$items = $group['cv'];
+								
+									
+									echo ''.$group['headline'].''.$i.'<br>';
+									foreach($items as $item) {
+										echo ''.$item['start_date'].''.$i.'<br>';
+										$i++;
+									}
+								
+								}
+								$i++;
+								
+								
+								*/
+								
+								while ( have_rows( 'cv_item' ) ) : the_row();
+								$i = 0;
+								$m = 0;
+								
+								echo '<section>';
+								
+								
+									
+								
+									echo '<div id="accordion" class="accordion">';
+									echo	'<div class="accordion__group">';
+									echo 		'<div class="accordion__heading">
+														<a class="accordion__toggle collapsed" href="#accordion__collapse__'.$i.'0'.$m.'" data-toggle="collapse" data-parent="#accordion">';
+														the_sub_field( 'headline' );
+									echo 				'</a>';
+									echo 		'</div>';
+									echo 	'</div>';
+									
+								
+									if ( have_rows( 'cv' ) ){
+										
+									echo 	'<div id="accordion__collapse__'.$i.'0'.$m.'" class="accordion__body collapse">
+												<div class="accordion__inner">';
+										
+										echo '<dl class="cv_list">';
+										while ( have_rows( 'cv' ) ) : the_row();
+											echo '<dt>';
+											the_sub_field( 'start_date' );
+											if (get_sub_field( 'end_date' )){
+												echo '-';
+												the_sub_field( 'end_date' );
+											}
+											echo '</dt>';
+											echo '<dd>';
+											the_sub_field( 'story' );
+											echo '</dd>';
+										$m++;
+										endwhile;
+										echo '</dl>';
+										
+									echo 		'</div>';
+									echo 	'</div>';
+									
+										
+									}
+									
+									echo '</div>';
+									
+								echo '</section>';
+								echo ''.$i.'';
+								echo ''.$m.'';
+								
+								
+								$i++;
+								endwhile;
+							}
+							
+							// Accordion fields End
+				
+				
 					endwhile;
 				
 				echo '</div>';

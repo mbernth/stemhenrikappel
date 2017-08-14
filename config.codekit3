@@ -256,6 +256,15 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/stemhenrikappel\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/stemhenrikappel\/js\/min\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/stemhenrikappel\/js\/casefilter.js": {
 		"ft": 64,
 		"mi": 1,
@@ -2585,6 +2594,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/stemhenrikappel\/scss\/_accordion.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stemhenrikappel\/scss\/_accordion-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/stemhenrikappel\/scss\/_animation_keyframes.scss": {
 		"aP": 0,
