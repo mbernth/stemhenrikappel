@@ -230,6 +230,7 @@ function featured_body_class( $classes ) {
 
 //* Setup Theme
 include_once( get_stylesheet_directory() . '/lib/flexible_grids_content.php' );
+include_once( get_stylesheet_directory() . '/lib/accordion.php' );
 
 // =====================================================================================================================
 

@@ -595,6 +595,12 @@
 		"oAP": "\/stemhenrikappel\/languages\/monopro.pot",
 		"oF": 0
 		},
+	"\/stemhenrikappel\/lib\/accordion.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/stemhenrikappel\/lib\/accordion.php",
+		"oF": 0
+		},
 	"\/stemhenrikappel\/lib\/acf_functions.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2595,15 +2601,18 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/stemhenrikappel\/scss\/_accordion.css": {
-		"aP": 1,
+	"\/stemhenrikappel\/scss\/_accordion.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stemhenrikappel\/scss\/_accordion-min.css",
+		"oAP": "\/stemhenrikappel\/css\/_accordion.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
 	"\/stemhenrikappel\/scss\/_animation_keyframes.scss": {
 		"aP": 0,

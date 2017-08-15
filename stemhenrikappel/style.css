@@ -3588,11 +3588,12 @@ img.alignright,
 
 /* Accordion =================================================== */
 .accordion {
-  margin-bottom: 30px; }
+  margin-bottom: 0px; }
+
+.accordion__heading h2 {
+  margin-bottom: 0px; }
 
 .accordion__heading a {
-  color: #333333;
-  font-weight: 400;
   text-decoration: none; }
 
 .accordion__heading a:hover {
@@ -3609,40 +3610,46 @@ img.alignright,
 
 /*accordion-heading*/
 .accordion__inner {
-  padding: 12px 20px;
+  padding: 0;
   margin-bottom: 30px;
-  background-color: #fafbfc;
-  border: 1px solid #a3b5be; }
+  background-color: #f2f3f3; }
+  .accordion__inner td {
+    border-top: none;
+    border-bottom: 1px solid #d6dace;
+    vertical-align: top; }
+    .accordion__inner td:first-child {
+      font-weight: 600;
+      width: 20%; }
 
 .accordion__inner p:last-child {
   margin-bottom: 0; }
 
-.accordion__toggle {
-  border: 1px solid #a3b5be;
-  -webkit-border-radius: 4px 4px 0px 0px;
-  -moz-border-radius: 4px 4px 0px 0px;
-  border-radius: 4px 4px 0px 0px; }
-
 .accordion__toggle.collapsed {
   margin-bottom: 20px;
-  border: 1px solid #a3b5be;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px; }
+  background-color: #32373e; }
 
-.accordion__toggle:after {
-  font-family: 'icomoon';
-  content: "\e6cf";
-  /* Arrow up */
-  text-decoration: none;
-  float: right; }
+.accordion__toggle {
+  background-color: #d6dace; }
 
-.accordion__toggle.collapsed:after {
-  font-family: 'icomoon';
-  content: "\e6ce";
-  /* Arrow down */
-  text-decoration: none;
-  float: right; }
+.accordion__toggle .icon-arrow-down5 {
+  display: none;
+  float: right;
+  margin-top: 2px;
+  width: 25px;
+  height: 25px; }
+
+.accordion__toggle .icon-arrow-up4 {
+  display: inline-block;
+  float: right;
+  margin-top: 2px;
+  width: 25px;
+  height: 25px; }
+
+.accordion__toggle.collapsed .icon-arrow-down5 {
+  display: inline-block; }
+
+.accordion__toggle.collapsed .icon-arrow-up4 {
+  display: none; }
 
 .collapse {
   position: relative;
@@ -4178,10 +4185,10 @@ img.alignright,
   box-shadow: inset 0 -30px 0 #dfe1df; }
 
 .gridcontainer .row_headline {
-  font-size: 36px;
-  font-size: 3.6rem;
-  line-height: 36px;
-  line-height: 3.6rem; }
+  font-size: 32px;
+  font-size: 3.2rem;
+  line-height: 32px;
+  line-height: 3.2rem; }
 
 /* ## Buttons
 ---------------------------------------------------------------------- */
@@ -6167,6 +6174,30 @@ p.entry-meta {
         left: calc(50% - 290px);
         top: calc(50% - -114px);
         animation: slide 2s 3s ease-in-out both; }
+  /* Accordion
+--------------------------------------------- */
+  .accordion__heading a {
+    cursor: default; }
+  .accordion__heading a:hover {
+    color: #f04d46;
+    cursor: default; }
+  .accordion__heading .accordion__toggle {
+    cursor: default; }
+  .accordion__toggle .icon-arrow-down5 {
+    display: none; }
+  .accordion__toggle .icon-arrow-up4 {
+    display: none; }
+  .accordion__toggle.collapsed {
+    margin-bottom: 0;
+    background-color: #d6dace; }
+    .accordion__toggle.collapsed .icon-arrow-down5 {
+      display: none; }
+    .accordion__toggle.collapsed .icon-arrow-up4 {
+      display: none; }
+  .collapse,
+  .accordion__body {
+    height: auto !important;
+    opacity: 1; }
   /* ## Genesis eNews Extended
 ---------------------------------------------------------------------- */
   /* ## Skip Links

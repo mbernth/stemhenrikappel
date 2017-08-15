@@ -254,6 +254,42 @@
 		}
 	}
 }
+/* Accordion
+--------------------------------------------- */
+.accordion__heading a{
+	cursor: default;
+}
+.accordion__heading a:hover{
+	color: $color-primary;
+	cursor: default;
+}
+.accordion__heading .accordion__toggle {
+    cursor: default;
+}
+.accordion__toggle {
+	.icon-arrow-down5{
+		display: none;
+	}
+	.icon-arrow-up4{
+		display: none;
+	}
+}
+.accordion__toggle.collapsed {
+	margin-bottom: 0;
+	background-color: $color-secondary;
+	.icon-arrow-down5{
+		display: none;
+	}
+	.icon-arrow-up4{
+		display: none;
+	}
+}
+.collapse,
+.accordion__body{
+	height: auto !important;
+	opacity: 1;
+}
+	
 /* ## Genesis eNews Extended
 ---------------------------------------------------------------------- */
 /* ## Skip Links

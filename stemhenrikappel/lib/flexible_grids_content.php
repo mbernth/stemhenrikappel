@@ -95,6 +95,52 @@ function mono_flexible_grids() {
 							echo '</section>';
 							}
 							
+							// Cloned accordion
+							if (get_sub_field('page_accordion')){
+							$accord = get_sub_field('page_accordion');
+							$groups = $accord['accordion'];
+							$loopCount = 0;
+							$loopCounter = 0;
+								
+							echo '<section>';
+							
+							if( $groups ) { // Start accordion
+		
+							foreach($groups as $group) {
+								echo '<div id="accordion" class="accordion">';
+			
+								echo '<div class="accordion__group">';
+								echo 	'<div class="accordion__heading">
+											<h2><a class="accordion__toggle collapsed" href="#accordion__collapse__'.$loopCount.'0'.$loopCounter.'" data-toggle="collapse" data-parent="#accordion">
+												' . $group['headline']. ' <svg class="icon-arrow-down5"><use xlink:href="#icon-arrow-down5"></use></svg> <svg class="icon-arrow-up4"><use xlink:href="#icon-arrow-up4"></use></svg>
+											</a></h2>
+										</div>';
+								echo '</div>';
+			
+								echo '<div id="accordion__collapse__'.$loopCount.'0'.$loopCounter.'" class="accordion__body collapse">
+										<div class="accordion__inner">
+										<table>';
+										if( $group['list'] ) {
+											foreach($group['list'] as $list) {
+					
+											echo'<tr><td>' . $list['years']. '</td><td>' . $list['activity']. '</td></tr>';
+					
+											$loopCounter ++;
+											}
+										}
+								echo 	'</table></div>';
+								echo '</div>';
+						
+								echo '</div>';
+								$loopCount ++;
+							}
+		
+	
+							}// End accordion
+							
+							echo '</section>';
+							}
+							
 							
 							// Image fields
 							if (get_sub_field('image_link')){
