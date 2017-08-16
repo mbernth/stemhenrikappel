@@ -74,6 +74,7 @@
 .entry-title {
 	@include font(3.2, 3.2);
 	margin-bottom:20px;
+	text-transform: uppercase;
 }
 
 .entry-title a,

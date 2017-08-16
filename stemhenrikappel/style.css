@@ -2802,7 +2802,8 @@ th {
   font-size: 3.2rem;
   line-height: 32px;
   line-height: 3.2rem;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-transform: uppercase; }
 
 .entry-title a,
 .sidebar .widget-title a {
@@ -3070,8 +3071,6 @@ img.alignright,
     padding: 10px;
     position: absolute;
     display: block;
-    width: 90%;
-    max-width: 180px;
     overflow: hidden;
     color: #32373e;
     background-color: #f2f3f3;
@@ -3100,8 +3099,6 @@ img.alignright,
 .slide_content h1 {
   padding: 20px;
   position: absolute;
-  width: 90%;
-  max-width: 400px;
   overflow: hidden;
   color: #32373e;
   background-color: #f2f3f3;
@@ -5246,7 +5243,6 @@ p.entry-meta {
     margin-top: 140px; }
     .statements h1 {
       padding: 20px;
-      max-width: 400px;
       font-size: 32px;
       font-size: 3.2rem;
       line-height: 32px;
@@ -6157,7 +6153,6 @@ p.entry-meta {
     margin-top: 140px; }
     .statements h1 {
       padding: 20px;
-      max-width: 400px;
       font-size: 32px;
       font-size: 3.2rem;
       line-height: 32px;
