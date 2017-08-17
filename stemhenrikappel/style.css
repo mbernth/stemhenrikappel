@@ -3778,7 +3778,7 @@ img.alignright,
 ---------------------------------------------------------------------- */
 .before-header {
   float: left;
-  padding: 10px 5%;
+  padding: 0px;
   width: 100%;
   background-color: #902e2a;
   -webkit-transition: all 0.5s ease-in-out;
@@ -3787,6 +3787,27 @@ img.alignright,
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   z-index: 1000; }
+  .before-header .widget_nav_menu {
+    margin-top: 12px;
+    margin-right: 18px; }
+  .before-header .simple-social-icons ul li {
+    margin: 0px !important; }
+    .before-header .simple-social-icons ul li a {
+      background-color: #f2f3f3 !important;
+      border-radius: 0px;
+      color: #f04d46 !important;
+      border: 0px #ffffff solid !important;
+      font-size: 16px;
+      padding: 10px !important;
+      margin-left: 2px; }
+      .before-header .simple-social-icons ul li a:hover {
+        background-color: #32373e !important;
+        border-radius: 0px;
+        color: #f2f3f3 !important;
+        border: 0px #ffffff solid !important;
+        font-size: 16px;
+        padding: 10px !important;
+        margin-right: 2px; }
 
 .before-header .wrap {
   margin: 0 auto;
@@ -3801,7 +3822,8 @@ img.alignright,
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: right;
-  color: #f2f3f3; }
+  color: #f2f3f3;
+  float: right; }
 
 .before-header .menu a {
   color: #f2f3f3;
@@ -5290,6 +5312,8 @@ p.entry-meta {
 ---------------------------------------------------------------------- */
   /* ## Before header
 ---------------------------------------------------------------------- */
+  .before-header {
+    padding: 0px 5%; }
   /* # Site Navigation
 ---------------------------------------------------------------------------------------------------- */
   /* ## Accessible Menu
@@ -5303,7 +5327,7 @@ p.entry-meta {
   /* ## Responsive Menu
 ---------------------------------------------------------------------- */
   .responsive-menu-icon {
-    margin-top: 34px; }
+    margin-top: 12px; }
   .responsive-menu-icon .icon-list2 {
     width: 40px;
     height: 40px; }
@@ -6211,6 +6235,9 @@ p.entry-meta {
 ---------------------------------------------------------------------- */
   /* # Site Navigation
 ---------------------------------------------------------------------------------------------------- */
+  .genesis-nav-menu a {
+    padding: 15px 15px;
+    letter-spacing: 0.12em; }
   /* ## Accessible Menu
 ---------------------------------------------------------------------- */
   /* ## Site Header Navigation
@@ -7005,6 +7032,9 @@ p.entry-meta {
 ---------------------------------------------------------------------- */
   /* # Site Navigation
 ---------------------------------------------------------------------------------------------------- */
+  .genesis-nav-menu a {
+    padding: 15px 20px;
+    letter-spacing: 0.2em; }
   /* ## Accessible Menu
 ---------------------------------------------------------------------- */
   /* ## Site Header Navigation
