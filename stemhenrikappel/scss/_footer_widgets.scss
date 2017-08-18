@@ -44,33 +44,13 @@
 }
 
 .footer-widgets a {
-	color: shade($color-grey, 80%);
-	text-decoration:none;
-	border-bottom: 4px solid $color-grey;
-    box-shadow: inset 0 0px 0 $color-grey;
-    text-decoration: none;
-	padding:0px 0px;
 	
-	-webkit-transition: box-shadow .5s ease-in-out;
-	-moz-transition:    box-shadow .5s ease-in-out;
-	-ms-transition:     box-shadow .5s ease-in-out;
-	-o-transition:      box-shadow .5s ease-in-out;
-	transition:         box-shadow .5s ease-in-out;
 }
 
 .footer-widgets a:hover,
 .footer-widgets a:focus {
-    border-bottom: 4px solid $color-grey;
-    box-shadow: inset 0 -30px 0 shade( $color-grey, 20%);
+    
 }
-
-.footer-widgets a img,
-.footer-widgets a:hover img,
-.footer-widgets a:focus img{
-    border-bottom: 4px solid $color-grey;
-    box-shadow: inset 0 -30px 0 $color-grey;
-}
-
 
 .footer-widgets li {
 	margin-bottom: 10px;
@@ -105,9 +85,50 @@
 }
 .simple-social-icons a {
     border-bottom: none;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 .simple-social-icons a:hover,
 .simple-social-icons a:focus {
     border-bottom: none;
     box-shadow: none;
+}
+
+.footer-widgets .simple-social-icons a:hover{
+	box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* ## Menu items
+---------------------------------------------------------------------- */
+
+.footer-widgets{
+	.menu{
+		margin: 20px auto 0;
+		padding-top: 40px;
+		width: 90%;
+		max-width: 320px;
+		text-align: center;
+		border-top: 1px solid $color-black;
+		a{
+			font-family: $font-headlines;
+			font-weight: 700;
+			letter-spacing: 0.2rem;
+			text-transform: uppercase;
+			color: $color-black;
+			padding: 16px 24px;
+			-webkit-transition: all .3s ease-in-out;
+			-moz-transition: all .3s ease-in-out;
+			-ms-transition: all .3s ease-in-out;
+			-o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+			&:hover{
+				letter-spacing: 0.2rem;
+				color:$color-primary;
+				box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.25);
+			}
+		}
+	}
 }

@@ -97,6 +97,9 @@
 .gridcontainer.black{
 	background-color: $color-black;
 	color: $color-white;
+	a.button:hover{
+		box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.35);
+	}
 }
 .gridcontainer.grey{
 	background-color: $color-secondary;
