@@ -40,6 +40,7 @@
 			}
 		}
 		.sidebar-primary{
+			clear: none;
 			float: right;
 			@include structure(390, 1200);
 		}
@@ -74,6 +75,7 @@
 			}
 		}
 		.sidebar-primary{
+			clear: none;
 			float: left;
 			@include structure(390, 1200);
 		}

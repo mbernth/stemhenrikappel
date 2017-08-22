@@ -7,7 +7,7 @@
 		"uuidString": "7C1D90D0-1D5B-4F5A-A09C-E9D095AA6263"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -258,6 +258,7 @@
 		},
 	"\/stemhenrikappel\/js\/bootstrap.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/bootstrap.min-min.js",
@@ -267,6 +268,7 @@
 		},
 	"\/stemhenrikappel\/js\/casefilter.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/casefilter-min.js",
@@ -276,6 +278,7 @@
 		},
 	"\/stemhenrikappel\/js\/classie.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/classie-min.js",
@@ -285,6 +288,7 @@
 		},
 	"\/stemhenrikappel\/js\/countdown.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/countdown-min.js",
@@ -294,6 +298,7 @@
 		},
 	"\/stemhenrikappel\/js\/fitvids.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/fitvids-min.js",
@@ -303,6 +308,7 @@
 		},
 	"\/stemhenrikappel\/js\/flickity.pkgd.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/flickity.pkgd.min-min.js",
@@ -312,6 +318,7 @@
 		},
 	"\/stemhenrikappel\/js\/flip.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/flip-min.js",
@@ -321,6 +328,7 @@
 		},
 	"\/stemhenrikappel\/js\/frontpage_image.height.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/frontpage_image.height-min.js",
@@ -330,6 +338,7 @@
 		},
 	"\/stemhenrikappel\/js\/home.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/home-min.js",
@@ -339,6 +348,7 @@
 		},
 	"\/stemhenrikappel\/js\/image.height.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/image.height-min.js",
@@ -348,6 +358,7 @@
 		},
 	"\/stemhenrikappel\/js\/jquery-1.9.1.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/jquery-1.9.1.min-min.js",
@@ -357,6 +368,7 @@
 		},
 	"\/stemhenrikappel\/js\/jquery-2.1.3.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/jquery-2.1.3.min-min.js",
@@ -366,6 +378,7 @@
 		},
 	"\/stemhenrikappel\/js\/jquery.ba-cond.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/jquery.ba-cond.min-min.js",
@@ -375,6 +388,7 @@
 		},
 	"\/stemhenrikappel\/js\/jquery.fittext.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/jquery.fittext-min.js",
@@ -384,6 +398,7 @@
 		},
 	"\/stemhenrikappel\/js\/jquery.fitvids.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/jquery.fitvids-min.js",
@@ -393,6 +408,7 @@
 		},
 	"\/stemhenrikappel\/js\/jquery.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/jquery.min-min.js",
@@ -402,6 +418,7 @@
 		},
 	"\/stemhenrikappel\/js\/jquery.slitslider.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/jquery.slitslider-min.js",
@@ -411,6 +428,7 @@
 		},
 	"\/stemhenrikappel\/js\/maps.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/maps-min.js",
@@ -420,6 +438,7 @@
 		},
 	"\/stemhenrikappel\/js\/masonry.pkgd.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/masonry.pkgd.min-min.js",
@@ -429,6 +448,7 @@
 		},
 	"\/stemhenrikappel\/js\/menu.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/menu-min.js",
@@ -438,6 +458,7 @@
 		},
 	"\/stemhenrikappel\/js\/menu_push.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/menu_push-min.js",
@@ -447,6 +468,7 @@
 		},
 	"\/stemhenrikappel\/js\/min\/owl.frontslider-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/min\/owl.frontslider-min-min.js",
@@ -456,6 +478,7 @@
 		},
 	"\/stemhenrikappel\/js\/modernizr.custom.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/modernizr.custom-min.js",
@@ -465,6 +488,7 @@
 		},
 	"\/stemhenrikappel\/js\/modernizr.custom.push.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/modernizr.custom.push-min.js",
@@ -474,6 +498,7 @@
 		},
 	"\/stemhenrikappel\/js\/modernizr.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/modernizr.min-min.js",
@@ -483,6 +508,7 @@
 		},
 	"\/stemhenrikappel\/js\/mono_flip.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/mono_flip-min.js",
@@ -492,6 +518,7 @@
 		},
 	"\/stemhenrikappel\/js\/owl.carousel.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/owl.carousel.min-min.js",
@@ -501,6 +528,7 @@
 		},
 	"\/stemhenrikappel\/js\/owl.frontslider.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/owl.frontslider-min.js",
@@ -510,6 +538,7 @@
 		},
 	"\/stemhenrikappel\/js\/pageflip.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/pageflip-min.js",
@@ -519,6 +548,7 @@
 		},
 	"\/stemhenrikappel\/js\/parallax.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/parallax-min.js",
@@ -528,6 +558,7 @@
 		},
 	"\/stemhenrikappel\/js\/push.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/push-min.js",
@@ -537,6 +568,7 @@
 		},
 	"\/stemhenrikappel\/js\/quote_action.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/quote_action-min.js",
@@ -546,6 +578,7 @@
 		},
 	"\/stemhenrikappel\/js\/quotes.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/quotes-min.js",
@@ -555,6 +588,7 @@
 		},
 	"\/stemhenrikappel\/js\/responsive-menu.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/responsive-menu-min.js",
@@ -564,6 +598,7 @@
 		},
 	"\/stemhenrikappel\/js\/rgc-mason.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/rgc-mason-min.js",
@@ -573,6 +608,7 @@
 		},
 	"\/stemhenrikappel\/js\/slide.nav.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/slide.nav-min.js",
@@ -582,6 +618,7 @@
 		},
 	"\/stemhenrikappel\/js\/timeline.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/js\/min\/timeline-min.js",
@@ -685,6 +722,7 @@
 		},
 	"\/stemhenrikappel\/libtemp\/bootstrap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/libtemp\/min\/bootstrap-min.js",
@@ -704,6 +742,7 @@
 		},
 	"\/stemhenrikappel\/libtemp\/jquery-1.11.3.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/stemhenrikappel\/libtemp\/min\/jquery-1.11.3.min-min.js",
@@ -3907,6 +3946,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -3914,6 +3957,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -4011,6 +4058,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -4030,6 +4081,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -4158,6 +4213,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -4703,6 +4762,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -4771,6 +4834,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -4810,6 +4877,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -5443,6 +5514,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
