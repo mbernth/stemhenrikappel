@@ -3070,17 +3070,18 @@ img.alignright,
   height: 60vh;
   margin-top: 111px; }
   .statements h1 {
-    padding: 10px;
+    padding: 10px 20px;
     position: absolute;
     display: block;
     overflow: hidden;
     color: #32373e;
     background-color: #f2f3f3;
     text-transform: uppercase;
-    font-size: 20px;
-    font-size: 2rem;
-    line-height: 20px;
-    line-height: 2rem; }
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+    font-weight: 900; }
     .statements h1 a {
       color: #32373e; }
       .statements h1 a:hover {
@@ -3091,11 +3092,11 @@ img.alignright,
       animation: slide 2s 1s ease-in-out both; }
     .statements h1:nth-child(2) {
       left: calc(50% - 140px);
-      top: calc(50% - 16px);
+      top: calc(50% - 21px);
       animation: slide 2s 2s ease-in-out both; }
     .statements h1:nth-child(3) {
-      left: calc(50% - 100px);
-      top: calc(50% - -44px);
+      left: calc(50% - 127px);
+      top: calc(50% - -34px);
       animation: slide 2s 3s ease-in-out both; }
 
 .slide_content h1 {
@@ -5276,22 +5277,22 @@ p.entry-meta {
   .statements {
     margin-top: 140px; }
     .statements h1 {
-      padding: 20px;
+      padding: 10px 20px;
       font-size: 32px;
       font-size: 3.2rem;
       line-height: 32px;
       line-height: 3.2rem; }
       .statements h1:nth-child(1) {
-        left: calc(50% - 400px);
+        left: calc(50% - 340px);
         top: calc(50% - 106px);
         animation: slide 2s 1s ease-in-out both; }
       .statements h1:nth-child(2) {
-        left: calc(50% - 420px);
-        top: calc(50% - -6px);
+        left: calc(50% - 380px);
+        top: calc(50% - 39px);
         animation: slide 2s 2s ease-in-out both; }
       .statements h1:nth-child(3) {
-        left: calc(50% - 320px);
-        top: calc(50% - -114px);
+        left: calc(50% - 359px);
+        top: calc(50% - -28px);
         animation: slide 2s 3s ease-in-out both; }
   /* Quotes Rotator
 --------------------------------------------- */
@@ -6190,7 +6191,6 @@ p.entry-meta {
   .statements {
     margin-top: 140px; }
     .statements h1 {
-      padding: 20px;
       font-size: 32px;
       font-size: 3.2rem;
       line-height: 32px;
@@ -6201,11 +6201,11 @@ p.entry-meta {
         animation: slide 2s 1s ease-in-out both; }
       .statements h1:nth-child(2) {
         left: calc(50% - 450px);
-        top: calc(50% - -6px);
+        top: calc(50% - 39px);
         animation: slide 2s 2s ease-in-out both; }
       .statements h1:nth-child(3) {
-        left: calc(50% - 290px);
-        top: calc(50% - -114px);
+        left: calc(50% - 429px);
+        top: calc(50% - -28px);
         animation: slide 2s 3s ease-in-out both; }
   /* Accordion
 --------------------------------------------- */

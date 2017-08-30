@@ -100,21 +100,21 @@
 .statements{
 	margin-top: 140px;
 	h1{
-		padding: 20px;
+		padding: 10px 20px;
 		@include font(3.2, 3.2);
 		&:nth-child(1){
-			left: calc(50% - 400px);
+			left: calc(50% - 340px);
 			top: calc(50% - 106px);
 			animation: slide 2s 1s ease-in-out both;
 		}
 		&:nth-child(2){
-			left: calc(50% - 420px);
-			top: calc(50% - -6px);
+			left: calc(50% - 380px);
+			top: calc(50% - 39px);
 			animation: slide 2s 2s ease-in-out both;
 		}
 		&:nth-child(3){
-			left: calc(50% - 320px);
-			top: calc(50% - -114px);
+			left: calc(50% - 359px);
+			top: calc(50% - -28px);
 			animation: slide 2s 3s ease-in-out both;
 		}
 	}
