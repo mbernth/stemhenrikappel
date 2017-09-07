@@ -476,6 +476,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/stemhenrikappel\/js\/min\/quote_action-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/stemhenrikappel\/js\/min\/min\/quote_action-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/stemhenrikappel\/js\/modernizr.custom.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2913,6 +2923,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stemhenrikappel\/scss\/_media_queries_medium.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stemhenrikappel\/css\/_media_queries_medium.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stemhenrikappel\/scss\/_media_queries_medium_tobedeleted.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2926,6 +2949,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stemhenrikappel\/scss\/_media_queries_small.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stemhenrikappel\/css\/_media_queries_small.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stemhenrikappel\/scss\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2935,6 +2971,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/stemhenrikappel\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/stemhenrikappel\/scss\/_owl_carousel.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stemhenrikappel\/css\/_owl_carousel.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3483,6 +3532,16 @@
 		"oA": 2,
 		"oAP": "\/stemhenrikappel\/single-case.php",
 		"oF": 0
+		},
+	"\/stemhenrikappel\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/stemhenrikappel\/style-min.css",
+		"oF": 0,
+		"oS": 3
 		}
 	},
 "hooks": [

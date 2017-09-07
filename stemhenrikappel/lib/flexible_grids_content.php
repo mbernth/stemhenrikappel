@@ -194,7 +194,12 @@ function mono_flexible_grids() {
 									echo '<div id="cbp-qtrotator" class="cbp-qtrotator">';
 										foreach($items as $item) {	
 											echo '<div class="cbp-qtcontent">
-													<img src="' . $item['photo'] .'" alt="' . $item['quote_name'] .'" title="' . $item['quote_name'] .', ' . $item['titel'] .'">
+													<figure>
+														<img src="' . $item['photo'] .'" alt="' . $item['quote_name'] .'" title="' . $item['quote_name'] .', ' . $item['titel'] .'">';
+													if ($item['foto']){
+														echo '<figcaption>Foto: ' . $item['foto'] .'</figcaption>';
+													}
+											echo '</figure>
 													<div>
 											      		<blockquote>' . $item['quote'] .'</blockquote>
 														<footer>' . $item['quote_name'] .'<br><em>' . $item['titel'] .'</em></footer>

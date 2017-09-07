@@ -88,7 +88,7 @@ svg:not(:root) {
   overflow: hidden; }
 
 figure {
-  margin: 1em 40px; }
+  margin: 0; }
 
 hr {
   -moz-box-sizing: content-box;
@@ -3557,8 +3557,14 @@ img.alignright,
   content: '? '; }
 
 /* Columns Quote rotator */
-.gridcontainer[class*="coll"] .cbp-qtrotator img {
+.gridcontainer[class*="coll"] .cbp-qtrotator figure {
   display: none; }
+  .gridcontainer[class*="coll"] .cbp-qtrotator figure figcaption {
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+    font-style: italic; }
 
 .gridcontainer[class*="coll"] .cbp-qtrotator blockquote {
   font-size: 18px;
@@ -5300,7 +5306,7 @@ p.entry-meta {
     display: flex;
     align-items: flex-start;
     padding-top: 30px; }
-  .gridcontainer[class*="coll"] .cbp-qtrotator img {
+  .gridcontainer[class*="coll"] .cbp-qtrotator figure {
     display: block;
     margin-right: 30px;
     object-fit: contain;

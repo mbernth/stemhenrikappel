@@ -84,8 +84,12 @@
 }
 
 /* Columns Quote rotator */
-.gridcontainer[class*="coll"] .cbp-qtrotator img{
+.gridcontainer[class*="coll"] .cbp-qtrotator figure{
 	display: none;
+	figcaption{
+		@include font(1.2, 2.4);
+		font-style: italic;
+	}
 }
 .gridcontainer[class*="coll"] .cbp-qtrotator blockquote {
 	@include font(1.8, 2.8);
